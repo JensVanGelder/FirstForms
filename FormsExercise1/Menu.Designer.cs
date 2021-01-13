@@ -35,6 +35,7 @@ namespace FormsExercise1
             this.btnExercise3 = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnHidden = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,6 +110,19 @@ namespace FormsExercise1
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // btnHidden
+            // 
+            this.btnHidden.BackColor = System.Drawing.Color.Transparent;
+            this.btnHidden.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnHidden.FlatAppearance.BorderSize = 0;
+            this.btnHidden.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHidden.Location = new System.Drawing.Point(272, 308);
+            this.btnHidden.Name = "btnHidden";
+            this.btnHidden.Size = new System.Drawing.Size(35, 38);
+            this.btnHidden.TabIndex = 5;
+            this.btnHidden.UseVisualStyleBackColor = false;
+            this.btnHidden.Click += new System.EventHandler(this.btnHidden_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +130,7 @@ namespace FormsExercise1
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(589, 387);
+            this.Controls.Add(this.btnHidden);
             this.Controls.Add(this.btnExercise2);
             this.Controls.Add(this.btnExercise1);
             this.Controls.Add(this.lblTitle);
@@ -136,5 +151,6 @@ namespace FormsExercise1
         private System.Windows.Forms.Button btnExercise3;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnHidden;
     }
 }

@@ -109,5 +109,15 @@ namespace FormsExercise1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shhhhhhh_its_a_secret {
+            get {
+                object obj = ResourceManager.GetObject("shhhhhhh-its-a-secret", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

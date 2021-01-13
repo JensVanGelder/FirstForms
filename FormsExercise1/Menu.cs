@@ -39,5 +39,11 @@ namespace FormsExercise1
         {
 
         }
+
+        private void btnHidden_Click(object sender, EventArgs e)
+        {
+            Secret shhh = new Secret();
+            shhh.Show();
+        }
     }
 }

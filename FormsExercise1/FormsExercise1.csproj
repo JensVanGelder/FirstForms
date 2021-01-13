@@ -73,6 +73,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secret.Designer.cs">
+      <DependentUpon>Secret.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Exercise1.resx">
       <DependentUpon>Exercise1.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +101,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Secret.resx">
+      <DependentUpon>Secret.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -119,6 +128,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shhhhhhh-its-a-secret.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
